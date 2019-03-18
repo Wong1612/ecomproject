@@ -1,0 +1,78 @@
+.line {
+    background-color: #EA3315;
+    width: 500px;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    margin-top: 0px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.textProduct{
+    font-family: 'Montserrat';
+    color: #EA3135;
+    margin-top: 50px;
+}
+
+
+@media (min-width:992px) {
+    .line {
+        background-color: #EA3315;
+        width: 2px;
+        height: 500px;
+        margin-top: -10px;
+    }
+
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        margin-top: -70px;
+        height: 80px;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .container {
+        margin-top: 70px
+    }
+
+    .formInput {
+        margin-top: 60px;
+    }
+
+    .homepage {
+        margin-top: 60px;
+    }
+
+    .textProduct {
+        font-family: 'Montserrat';
+        color: #EA3135;
+        margin-top: 100px;
+        font-weight: 900
+    }
+}
